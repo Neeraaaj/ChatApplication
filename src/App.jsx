@@ -9,7 +9,6 @@ import { useEffect } from 'react'
 import jsonp from 'jsonp'
 
 function App() {
-<<<<<<< HEAD
   useEffect(() => {
     // Replace 'your-api-endpoint' with the actual API endpoint
     const url = 'https://cloud.appwrite.io/v1/account/sessions/email?callback=myCallbackFunction';
@@ -22,8 +21,6 @@ function App() {
       }
     });
   }, []);
-=======
->>>>>>> 10a6e1ee233b8535ace8dc2ed671dd8f5d2b4752
   return (
     <Router>
       <AuthProvider>
